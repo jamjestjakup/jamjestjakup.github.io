@@ -1,0 +1,97 @@
+ul
+	{
+	list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+	}
+li a
+	{
+		
+		display:block;
+		width:150px;
+		font-size:1em;
+		text-align:center;
+		float:middle;
+		text-decoration:none;
+		color:white;
+		background-color:darkred;
+		padding: 10px 10px;
+		margin: 0px 4px 4px 0px;
+		border-radius:4px;
+		display: inline-block; 
+		transition: 0.2s;
+		
+			}
+li a:hover
+	{
+		background: crimson;
+		box-shadow: 0px 0px 0px;
+	}
+
+#rbox {
+            float: right;
+            background: black;
+            width: 69%;
+            height: 600px;
+        }
+		
+#lbox {
+            float: left;
+            background: black;
+            width: 29%;
+            height: 600px;
+}
+
+#rhalfbox {
+            float: right;
+            background: black;
+            width: 49%;
+            height: 600px;
+        }
+		
+#lhalfbox {
+            float: left;
+            background: black;
+            width: 49%;
+            height: 600px;
+}
+
+
+#mbox {
+            float: middle;
+            background: black;
+            width: 70%;
+            height: 600px;
+}
+
+.p1 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.p2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.p3 {
+	padding: 10px 10px;
+    background-color: black;
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: white;
+}
+
+  body {
+            animation: fadeInAnimation ease 2s;
+           
+            animation-fill-mode: both;
+        }
+
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }

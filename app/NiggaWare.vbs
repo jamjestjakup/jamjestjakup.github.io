@@ -1,0 +1,1 @@
+x=msgbox("Failed to load NiggaWare instaler; Comming Soon :)",0+16 ,"Error code 2")
